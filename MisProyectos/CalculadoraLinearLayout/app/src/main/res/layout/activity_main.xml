@@ -3,9 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     android:orientation="vertical"
+    tools:ignore="HardcodedText"
     tools:context="es.cice.calculadoralinearlayout.MainActivity">
 
     <TextView
@@ -18,40 +20,35 @@
         android:background="@color/white"
         android:textSize="75sp"
         android:gravity="end|center"
-        />
+         />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="horizontal"
-
         >
         <Button
             android:id="@+id/btnAC"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="AC"
             />
         <Button
             android:id="@+id/btnMasMenos"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="+/-"
             />
         <Button
             android:id="@+id/btnPorcentaje"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="%"
             />
         <Button
             android:id="@+id/btnDivision"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="/"
             />
     </LinearLayout>
@@ -64,32 +61,28 @@
         >
         <Button
             android:id="@+id/btn7"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="7"
             />
         <Button
             android:id="@+id/btn8"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="8"
             />
         <Button
             android:id="@+id/btn9"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="9"
             />
         <Button
             android:id="@+id/btnMultiplicar"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="*"
-            />
+             />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -99,30 +92,26 @@
         >
         <Button
             android:id="@+id/btn4"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="4"
             />
         <Button
             android:id="@+id/btn5"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="5"
             />
         <Button
             android:id="@+id/btn6"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="6"
             />
         <Button
             android:id="@+id/btnRestar"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="-"
             />
     </LinearLayout>
@@ -135,30 +124,26 @@
         >
         <Button
             android:id="@+id/btn1"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="1"
             />
         <Button
             android:id="@+id/btn2"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="2"
             />
         <Button
             android:id="@+id/btn3"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="3"
             />
         <Button
             android:id="@+id/btnSumar"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:text="+"
             />
     </LinearLayout>
@@ -177,14 +162,14 @@
             />
 
         <Button
-            android:id="@+id/btncoma"
+            android:id="@+id/btnComa"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="."
             />
         <Button
-            android:id="@+id/btnigual"
+            android:id="@+id/btnIgual"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"

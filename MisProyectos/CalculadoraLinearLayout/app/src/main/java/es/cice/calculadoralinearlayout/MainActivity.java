@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity {
         Button[] opeButtons =
                 {(Button) findViewById(R.id.btnMasMenos), (Button) findViewById(R.id.btnDivision),
                 (Button) findViewById(R.id.btnRestar), (Button) findViewById(R.id.btnMultiplicar),
-                (Button) findViewById(R.id.btnSumar), (Button) findViewById(R.id.btnigual),
+                (Button) findViewById(R.id.btnSumar), (Button) findViewById(R.id.btnIgual),
                         (Button)findViewById(R.id.btnPorcentaje)};
         for (Button button : opeButtons) {
             button.setOnClickListener(v -> {
                 switch (v.getId()) {
-                    case R.id.btnigual:
+                    case R.id.btnIgual:
                         if (operador != null) {
                             switch (operador) {
                                 case "+":
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
     private void configurarBotonesNumericos() {
         Button[] numericButtons={(Button)findViewById(R.id.btn0),(Button)findViewById(R.id.btn1),(Button)findViewById(R.id.btn2),(Button)findViewById(R.id.btn3),
                 (Button)findViewById(R.id.btn4),(Button)findViewById(R.id.btn5),(Button)findViewById(R.id.btn6),(Button)findViewById(R.id.btn7),(Button)findViewById(R.id.btn8),
-                (Button)findViewById(R.id.btn9),(Button)findViewById(R.id.btncoma)};
+                (Button)findViewById(R.id.btn9),(Button)findViewById(R.id.btnComa)};
         for(Button btn:numericButtons){
             btn.setOnClickListener(v -> {
                 if(estado==MainActivity.INTRODUCIENDO_VALORES){
